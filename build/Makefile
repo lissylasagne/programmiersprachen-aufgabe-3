@@ -150,6 +150,19 @@ aufgabe8/fast:
 .PHONY : aufgabe8/fast
 
 #=============================================================================
+# Target rules for targets named aufgabe9
+
+# Build rule for target.
+aufgabe9: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 aufgabe9
+.PHONY : aufgabe9
+
+# fast build rule for target.
+aufgabe9/fast:
+	$(MAKE) -f source/CMakeFiles/aufgabe9.dir/build.make source/CMakeFiles/aufgabe9.dir/build
+.PHONY : aufgabe9/fast
+
+#=============================================================================
 # Target rules for targets named aufgabe2bis4
 
 # Build rule for target.
@@ -226,6 +239,7 @@ help:
 	@echo "... nanovg"
 	@echo "... glfw"
 	@echo "... aufgabe8"
+	@echo "... aufgabe9"
 	@echo "... aufgabe2bis4"
 	@echo "... aufgabe7"
 	@echo "... aufgabe5"

@@ -24,7 +24,7 @@ TEST_CASE("all circles sorted", "[sort]")
 
 	std::sort(v.begin(),v.end(), [] (Circle a, Circle &c) -> bool{return a < c;});
 
-	REQUIRE (std :: is_sorted (v.begin (), v.end ()));
+	REQUIRE (std::is_sorted (v.begin (), v.end ()));
 }
 
 

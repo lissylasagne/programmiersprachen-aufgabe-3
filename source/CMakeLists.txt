@@ -19,4 +19,7 @@ add_executable (aufgabe8
  color.cpp
  mat2.cpp)
 
+add_executable (aufgabe9
+ aufgabe9.cpp)
+
 
