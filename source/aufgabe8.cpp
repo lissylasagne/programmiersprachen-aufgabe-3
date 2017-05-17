@@ -5,6 +5,7 @@
 #include <vector>
 #include <algorithm>
 
+
 TEST_CASE("all circles sorted", "[sort]")
 {
 	std::vector<Circle> v;
@@ -21,7 +22,7 @@ TEST_CASE("all circles sorted", "[sort]")
 	v.push_back(cirD);
 	v.push_back(cirE);
 
-	std::sort(v.begin(),v.end());
+	std::sort(v.begin(),v.end(), [] (Circle a, Circle &c) -> bool{return a < c;});
 
 	REQUIRE (std :: is_sorted (v.begin (), v.end ()));
 }
@@ -31,4 +32,3 @@ int main (int argc, char* argv[])
 {
 	return Catch::Session().run(argc, argv); 
 }
-

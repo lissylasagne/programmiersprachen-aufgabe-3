@@ -1,9 +1,9 @@
+#ifndef CIRCLE_HPP
+#define CIRCLE_HPP
 #include <iostream>
 #include "vec2.hpp"
 #include "color.hpp"
 #include "mat2.hpp"
-#ifndef CIRCLE_HPP
-#define CIRCLE_HPP
 
 struct Circle
 {
@@ -13,9 +13,9 @@ struct Circle
 	bool is_inside(Vec2 const& v) const;
 	void setColor(Color const& c);
 
-	Circle& operator<(Circle const& c);
-	Circle& operator>(Circle const& c);
-	Circle& operator==(Circle const& c);
+	bool operator<(Circle const& c) const;
+	bool operator>(Circle const& c) const;
+	bool operator==(Circle const& c) const;
 
 	float r;
 	Vec2 mid;

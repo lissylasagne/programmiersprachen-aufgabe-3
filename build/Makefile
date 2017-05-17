@@ -137,6 +137,32 @@ glfw/fast:
 .PHONY : glfw/fast
 
 #=============================================================================
+# Target rules for targets named aufgabe8
+
+# Build rule for target.
+aufgabe8: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 aufgabe8
+.PHONY : aufgabe8
+
+# fast build rule for target.
+aufgabe8/fast:
+	$(MAKE) -f source/CMakeFiles/aufgabe8.dir/build.make source/CMakeFiles/aufgabe8.dir/build
+.PHONY : aufgabe8/fast
+
+#=============================================================================
+# Target rules for targets named aufgabe2bis4
+
+# Build rule for target.
+aufgabe2bis4: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 aufgabe2bis4
+.PHONY : aufgabe2bis4
+
+# fast build rule for target.
+aufgabe2bis4/fast:
+	$(MAKE) -f source/CMakeFiles/aufgabe2bis4.dir/build.make source/CMakeFiles/aufgabe2bis4.dir/build
+.PHONY : aufgabe2bis4/fast
+
+#=============================================================================
 # Target rules for targets named aufgabe7
 
 # Build rule for target.
@@ -161,19 +187,6 @@ aufgabe5: cmake_check_build_system
 aufgabe5/fast:
 	$(MAKE) -f source/CMakeFiles/aufgabe5.dir/build.make source/CMakeFiles/aufgabe5.dir/build
 .PHONY : aufgabe5/fast
-
-#=============================================================================
-# Target rules for targets named aufgabe2bis4
-
-# Build rule for target.
-aufgabe2bis4: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 aufgabe2bis4
-.PHONY : aufgabe2bis4
-
-# fast build rule for target.
-aufgabe2bis4/fast:
-	$(MAKE) -f source/CMakeFiles/aufgabe2bis4.dir/build.make source/CMakeFiles/aufgabe2bis4.dir/build
-.PHONY : aufgabe2bis4/fast
 
 external/nanovg/src/nanovg.o: external/nanovg/src/nanovg.c.o
 
@@ -212,9 +225,10 @@ help:
 	@echo "... edit_cache"
 	@echo "... nanovg"
 	@echo "... glfw"
+	@echo "... aufgabe8"
+	@echo "... aufgabe2bis4"
 	@echo "... aufgabe7"
 	@echo "... aufgabe5"
-	@echo "... aufgabe2bis4"
 	@echo "... external/nanovg/src/nanovg.o"
 	@echo "... external/nanovg/src/nanovg.i"
 	@echo "... external/nanovg/src/nanovg.s"

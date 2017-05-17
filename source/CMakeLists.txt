@@ -12,4 +12,11 @@ add_executable (aufgabe7
  mat2.cpp)
 
 
+add_executable (aufgabe8
+ aufgabe8.cpp
+ circle.cpp
+ vec2.cpp
+ color.cpp
+ mat2.cpp)
+
 

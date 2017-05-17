@@ -31,17 +31,17 @@
 		}
 
 
-		Circle& operator<(Circle const& c)
+		bool Circle::operator<(Circle const& c) const
 		{
 			return (r < c.r);
 		}
 
-		Circle& operator>(Circle const& c)
+		bool Circle::operator>(Circle const& c) const
 		{
 			return (r > c.r);
 		}
 		
-		Circle& operator==(Circle const& c)
+		bool Circle::operator==(Circle const& c) const
 		{
 			return (r == c.r);
 		}
