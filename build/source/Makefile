@@ -111,6 +111,21 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+source/CMakeFiles/aufgabe10.dir/rule:
+	cd /Users/lissyscholz/documents/programmiersprachen/auf3/programmiersprachen-aufgabe-3/build && $(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/aufgabe10.dir/rule
+.PHONY : source/CMakeFiles/aufgabe10.dir/rule
+
+# Convenience name for target.
+aufgabe10: source/CMakeFiles/aufgabe10.dir/rule
+
+.PHONY : aufgabe10
+
+# fast build rule for target.
+aufgabe10/fast:
+	cd /Users/lissyscholz/documents/programmiersprachen/auf3/programmiersprachen-aufgabe-3/build && $(MAKE) -f source/CMakeFiles/aufgabe10.dir/build.make source/CMakeFiles/aufgabe10.dir/build
+.PHONY : aufgabe10/fast
+
+# Convenience name for target.
 source/CMakeFiles/aufgabe8.dir/rule:
 	cd /Users/lissyscholz/documents/programmiersprachen/auf3/programmiersprachen-aufgabe-3/build && $(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/aufgabe8.dir/rule
 .PHONY : source/CMakeFiles/aufgabe8.dir/rule
@@ -184,6 +199,33 @@ aufgabe5: source/CMakeFiles/aufgabe5.dir/rule
 aufgabe5/fast:
 	cd /Users/lissyscholz/documents/programmiersprachen/auf3/programmiersprachen-aufgabe-3/build && $(MAKE) -f source/CMakeFiles/aufgabe5.dir/build.make source/CMakeFiles/aufgabe5.dir/build
 .PHONY : aufgabe5/fast
+
+aufgabe10.o: aufgabe10.cpp.o
+
+.PHONY : aufgabe10.o
+
+# target to build an object file
+aufgabe10.cpp.o:
+	cd /Users/lissyscholz/documents/programmiersprachen/auf3/programmiersprachen-aufgabe-3/build && $(MAKE) -f source/CMakeFiles/aufgabe10.dir/build.make source/CMakeFiles/aufgabe10.dir/aufgabe10.cpp.o
+.PHONY : aufgabe10.cpp.o
+
+aufgabe10.i: aufgabe10.cpp.i
+
+.PHONY : aufgabe10.i
+
+# target to preprocess a source file
+aufgabe10.cpp.i:
+	cd /Users/lissyscholz/documents/programmiersprachen/auf3/programmiersprachen-aufgabe-3/build && $(MAKE) -f source/CMakeFiles/aufgabe10.dir/build.make source/CMakeFiles/aufgabe10.dir/aufgabe10.cpp.i
+.PHONY : aufgabe10.cpp.i
+
+aufgabe10.s: aufgabe10.cpp.s
+
+.PHONY : aufgabe10.s
+
+# target to generate assembly for a file
+aufgabe10.cpp.s:
+	cd /Users/lissyscholz/documents/programmiersprachen/auf3/programmiersprachen-aufgabe-3/build && $(MAKE) -f source/CMakeFiles/aufgabe10.dir/build.make source/CMakeFiles/aufgabe10.dir/aufgabe10.cpp.s
+.PHONY : aufgabe10.cpp.s
 
 aufgabe2bis4.o: aufgabe2bis4.cpp.o
 
@@ -448,11 +490,15 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... aufgabe10"
 	@echo "... aufgabe8"
 	@echo "... aufgabe9"
 	@echo "... aufgabe2bis4"
 	@echo "... aufgabe7"
 	@echo "... aufgabe5"
+	@echo "... aufgabe10.o"
+	@echo "... aufgabe10.i"
+	@echo "... aufgabe10.s"
 	@echo "... aufgabe2bis4.o"
 	@echo "... aufgabe2bis4.i"
 	@echo "... aufgabe2bis4.s"

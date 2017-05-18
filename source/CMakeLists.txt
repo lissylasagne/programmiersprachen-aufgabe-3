@@ -22,4 +22,7 @@ add_executable (aufgabe8
 add_executable (aufgabe9
  aufgabe9.cpp)
 
+add_executable (aufgabe10
+ aufgabe10.cpp)
+
 
