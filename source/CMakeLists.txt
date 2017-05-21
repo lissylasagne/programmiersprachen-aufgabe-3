@@ -1,3 +1,6 @@
+add_executable(beispiel
+ beispiel.cpp)
+
 add_executable(aufgabe2bis4
  aufgabe2bis4.cpp)
 
@@ -24,5 +27,14 @@ add_executable (aufgabe9
 
 add_executable (aufgabe10
  aufgabe10.cpp)
+
+add_executable (aufgabe12
+ aufgabe12.cpp
+ circle.cpp
+ vec2.cpp
+ color.cpp
+ mat2.cpp)
+
+
 
 

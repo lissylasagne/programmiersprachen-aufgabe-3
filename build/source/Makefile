@@ -111,6 +111,21 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+source/CMakeFiles/aufgabe12.dir/rule:
+	cd /Users/lissyscholz/documents/programmiersprachen/auf3/programmiersprachen-aufgabe-3/build && $(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/aufgabe12.dir/rule
+.PHONY : source/CMakeFiles/aufgabe12.dir/rule
+
+# Convenience name for target.
+aufgabe12: source/CMakeFiles/aufgabe12.dir/rule
+
+.PHONY : aufgabe12
+
+# fast build rule for target.
+aufgabe12/fast:
+	cd /Users/lissyscholz/documents/programmiersprachen/auf3/programmiersprachen-aufgabe-3/build && $(MAKE) -f source/CMakeFiles/aufgabe12.dir/build.make source/CMakeFiles/aufgabe12.dir/build
+.PHONY : aufgabe12/fast
+
+# Convenience name for target.
 source/CMakeFiles/aufgabe10.dir/rule:
 	cd /Users/lissyscholz/documents/programmiersprachen/auf3/programmiersprachen-aufgabe-3/build && $(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/aufgabe10.dir/rule
 .PHONY : source/CMakeFiles/aufgabe10.dir/rule
@@ -124,6 +139,36 @@ aufgabe10: source/CMakeFiles/aufgabe10.dir/rule
 aufgabe10/fast:
 	cd /Users/lissyscholz/documents/programmiersprachen/auf3/programmiersprachen-aufgabe-3/build && $(MAKE) -f source/CMakeFiles/aufgabe10.dir/build.make source/CMakeFiles/aufgabe10.dir/build
 .PHONY : aufgabe10/fast
+
+# Convenience name for target.
+source/CMakeFiles/aufgabe9.dir/rule:
+	cd /Users/lissyscholz/documents/programmiersprachen/auf3/programmiersprachen-aufgabe-3/build && $(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/aufgabe9.dir/rule
+.PHONY : source/CMakeFiles/aufgabe9.dir/rule
+
+# Convenience name for target.
+aufgabe9: source/CMakeFiles/aufgabe9.dir/rule
+
+.PHONY : aufgabe9
+
+# fast build rule for target.
+aufgabe9/fast:
+	cd /Users/lissyscholz/documents/programmiersprachen/auf3/programmiersprachen-aufgabe-3/build && $(MAKE) -f source/CMakeFiles/aufgabe9.dir/build.make source/CMakeFiles/aufgabe9.dir/build
+.PHONY : aufgabe9/fast
+
+# Convenience name for target.
+source/CMakeFiles/beispiel.dir/rule:
+	cd /Users/lissyscholz/documents/programmiersprachen/auf3/programmiersprachen-aufgabe-3/build && $(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/beispiel.dir/rule
+.PHONY : source/CMakeFiles/beispiel.dir/rule
+
+# Convenience name for target.
+beispiel: source/CMakeFiles/beispiel.dir/rule
+
+.PHONY : beispiel
+
+# fast build rule for target.
+beispiel/fast:
+	cd /Users/lissyscholz/documents/programmiersprachen/auf3/programmiersprachen-aufgabe-3/build && $(MAKE) -f source/CMakeFiles/beispiel.dir/build.make source/CMakeFiles/beispiel.dir/build
+.PHONY : beispiel/fast
 
 # Convenience name for target.
 source/CMakeFiles/aufgabe8.dir/rule:
@@ -141,19 +186,19 @@ aufgabe8/fast:
 .PHONY : aufgabe8/fast
 
 # Convenience name for target.
-source/CMakeFiles/aufgabe9.dir/rule:
-	cd /Users/lissyscholz/documents/programmiersprachen/auf3/programmiersprachen-aufgabe-3/build && $(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/aufgabe9.dir/rule
-.PHONY : source/CMakeFiles/aufgabe9.dir/rule
+source/CMakeFiles/aufgabe5.dir/rule:
+	cd /Users/lissyscholz/documents/programmiersprachen/auf3/programmiersprachen-aufgabe-3/build && $(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/aufgabe5.dir/rule
+.PHONY : source/CMakeFiles/aufgabe5.dir/rule
 
 # Convenience name for target.
-aufgabe9: source/CMakeFiles/aufgabe9.dir/rule
+aufgabe5: source/CMakeFiles/aufgabe5.dir/rule
 
-.PHONY : aufgabe9
+.PHONY : aufgabe5
 
 # fast build rule for target.
-aufgabe9/fast:
-	cd /Users/lissyscholz/documents/programmiersprachen/auf3/programmiersprachen-aufgabe-3/build && $(MAKE) -f source/CMakeFiles/aufgabe9.dir/build.make source/CMakeFiles/aufgabe9.dir/build
-.PHONY : aufgabe9/fast
+aufgabe5/fast:
+	cd /Users/lissyscholz/documents/programmiersprachen/auf3/programmiersprachen-aufgabe-3/build && $(MAKE) -f source/CMakeFiles/aufgabe5.dir/build.make source/CMakeFiles/aufgabe5.dir/build
+.PHONY : aufgabe5/fast
 
 # Convenience name for target.
 source/CMakeFiles/aufgabe2bis4.dir/rule:
@@ -185,21 +230,6 @@ aufgabe7/fast:
 	cd /Users/lissyscholz/documents/programmiersprachen/auf3/programmiersprachen-aufgabe-3/build && $(MAKE) -f source/CMakeFiles/aufgabe7.dir/build.make source/CMakeFiles/aufgabe7.dir/build
 .PHONY : aufgabe7/fast
 
-# Convenience name for target.
-source/CMakeFiles/aufgabe5.dir/rule:
-	cd /Users/lissyscholz/documents/programmiersprachen/auf3/programmiersprachen-aufgabe-3/build && $(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/aufgabe5.dir/rule
-.PHONY : source/CMakeFiles/aufgabe5.dir/rule
-
-# Convenience name for target.
-aufgabe5: source/CMakeFiles/aufgabe5.dir/rule
-
-.PHONY : aufgabe5
-
-# fast build rule for target.
-aufgabe5/fast:
-	cd /Users/lissyscholz/documents/programmiersprachen/auf3/programmiersprachen-aufgabe-3/build && $(MAKE) -f source/CMakeFiles/aufgabe5.dir/build.make source/CMakeFiles/aufgabe5.dir/build
-.PHONY : aufgabe5/fast
-
 aufgabe10.o: aufgabe10.cpp.o
 
 .PHONY : aufgabe10.o
@@ -226,6 +256,33 @@ aufgabe10.s: aufgabe10.cpp.s
 aufgabe10.cpp.s:
 	cd /Users/lissyscholz/documents/programmiersprachen/auf3/programmiersprachen-aufgabe-3/build && $(MAKE) -f source/CMakeFiles/aufgabe10.dir/build.make source/CMakeFiles/aufgabe10.dir/aufgabe10.cpp.s
 .PHONY : aufgabe10.cpp.s
+
+aufgabe12.o: aufgabe12.cpp.o
+
+.PHONY : aufgabe12.o
+
+# target to build an object file
+aufgabe12.cpp.o:
+	cd /Users/lissyscholz/documents/programmiersprachen/auf3/programmiersprachen-aufgabe-3/build && $(MAKE) -f source/CMakeFiles/aufgabe12.dir/build.make source/CMakeFiles/aufgabe12.dir/aufgabe12.cpp.o
+.PHONY : aufgabe12.cpp.o
+
+aufgabe12.i: aufgabe12.cpp.i
+
+.PHONY : aufgabe12.i
+
+# target to preprocess a source file
+aufgabe12.cpp.i:
+	cd /Users/lissyscholz/documents/programmiersprachen/auf3/programmiersprachen-aufgabe-3/build && $(MAKE) -f source/CMakeFiles/aufgabe12.dir/build.make source/CMakeFiles/aufgabe12.dir/aufgabe12.cpp.i
+.PHONY : aufgabe12.cpp.i
+
+aufgabe12.s: aufgabe12.cpp.s
+
+.PHONY : aufgabe12.s
+
+# target to generate assembly for a file
+aufgabe12.cpp.s:
+	cd /Users/lissyscholz/documents/programmiersprachen/auf3/programmiersprachen-aufgabe-3/build && $(MAKE) -f source/CMakeFiles/aufgabe12.dir/build.make source/CMakeFiles/aufgabe12.dir/aufgabe12.cpp.s
+.PHONY : aufgabe12.cpp.s
 
 aufgabe2bis4.o: aufgabe2bis4.cpp.o
 
@@ -362,12 +419,40 @@ aufgabe9.cpp.s:
 	cd /Users/lissyscholz/documents/programmiersprachen/auf3/programmiersprachen-aufgabe-3/build && $(MAKE) -f source/CMakeFiles/aufgabe9.dir/build.make source/CMakeFiles/aufgabe9.dir/aufgabe9.cpp.s
 .PHONY : aufgabe9.cpp.s
 
+beispiel.o: beispiel.cpp.o
+
+.PHONY : beispiel.o
+
+# target to build an object file
+beispiel.cpp.o:
+	cd /Users/lissyscholz/documents/programmiersprachen/auf3/programmiersprachen-aufgabe-3/build && $(MAKE) -f source/CMakeFiles/beispiel.dir/build.make source/CMakeFiles/beispiel.dir/beispiel.cpp.o
+.PHONY : beispiel.cpp.o
+
+beispiel.i: beispiel.cpp.i
+
+.PHONY : beispiel.i
+
+# target to preprocess a source file
+beispiel.cpp.i:
+	cd /Users/lissyscholz/documents/programmiersprachen/auf3/programmiersprachen-aufgabe-3/build && $(MAKE) -f source/CMakeFiles/beispiel.dir/build.make source/CMakeFiles/beispiel.dir/beispiel.cpp.i
+.PHONY : beispiel.cpp.i
+
+beispiel.s: beispiel.cpp.s
+
+.PHONY : beispiel.s
+
+# target to generate assembly for a file
+beispiel.cpp.s:
+	cd /Users/lissyscholz/documents/programmiersprachen/auf3/programmiersprachen-aufgabe-3/build && $(MAKE) -f source/CMakeFiles/beispiel.dir/build.make source/CMakeFiles/beispiel.dir/beispiel.cpp.s
+.PHONY : beispiel.cpp.s
+
 circle.o: circle.cpp.o
 
 .PHONY : circle.o
 
 # target to build an object file
 circle.cpp.o:
+	cd /Users/lissyscholz/documents/programmiersprachen/auf3/programmiersprachen-aufgabe-3/build && $(MAKE) -f source/CMakeFiles/aufgabe12.dir/build.make source/CMakeFiles/aufgabe12.dir/circle.cpp.o
 	cd /Users/lissyscholz/documents/programmiersprachen/auf3/programmiersprachen-aufgabe-3/build && $(MAKE) -f source/CMakeFiles/aufgabe8.dir/build.make source/CMakeFiles/aufgabe8.dir/circle.cpp.o
 	cd /Users/lissyscholz/documents/programmiersprachen/auf3/programmiersprachen-aufgabe-3/build && $(MAKE) -f source/CMakeFiles/aufgabe7.dir/build.make source/CMakeFiles/aufgabe7.dir/circle.cpp.o
 .PHONY : circle.cpp.o
@@ -378,6 +463,7 @@ circle.i: circle.cpp.i
 
 # target to preprocess a source file
 circle.cpp.i:
+	cd /Users/lissyscholz/documents/programmiersprachen/auf3/programmiersprachen-aufgabe-3/build && $(MAKE) -f source/CMakeFiles/aufgabe12.dir/build.make source/CMakeFiles/aufgabe12.dir/circle.cpp.i
 	cd /Users/lissyscholz/documents/programmiersprachen/auf3/programmiersprachen-aufgabe-3/build && $(MAKE) -f source/CMakeFiles/aufgabe8.dir/build.make source/CMakeFiles/aufgabe8.dir/circle.cpp.i
 	cd /Users/lissyscholz/documents/programmiersprachen/auf3/programmiersprachen-aufgabe-3/build && $(MAKE) -f source/CMakeFiles/aufgabe7.dir/build.make source/CMakeFiles/aufgabe7.dir/circle.cpp.i
 .PHONY : circle.cpp.i
@@ -388,6 +474,7 @@ circle.s: circle.cpp.s
 
 # target to generate assembly for a file
 circle.cpp.s:
+	cd /Users/lissyscholz/documents/programmiersprachen/auf3/programmiersprachen-aufgabe-3/build && $(MAKE) -f source/CMakeFiles/aufgabe12.dir/build.make source/CMakeFiles/aufgabe12.dir/circle.cpp.s
 	cd /Users/lissyscholz/documents/programmiersprachen/auf3/programmiersprachen-aufgabe-3/build && $(MAKE) -f source/CMakeFiles/aufgabe8.dir/build.make source/CMakeFiles/aufgabe8.dir/circle.cpp.s
 	cd /Users/lissyscholz/documents/programmiersprachen/auf3/programmiersprachen-aufgabe-3/build && $(MAKE) -f source/CMakeFiles/aufgabe7.dir/build.make source/CMakeFiles/aufgabe7.dir/circle.cpp.s
 .PHONY : circle.cpp.s
@@ -398,6 +485,7 @@ color.o: color.cpp.o
 
 # target to build an object file
 color.cpp.o:
+	cd /Users/lissyscholz/documents/programmiersprachen/auf3/programmiersprachen-aufgabe-3/build && $(MAKE) -f source/CMakeFiles/aufgabe12.dir/build.make source/CMakeFiles/aufgabe12.dir/color.cpp.o
 	cd /Users/lissyscholz/documents/programmiersprachen/auf3/programmiersprachen-aufgabe-3/build && $(MAKE) -f source/CMakeFiles/aufgabe8.dir/build.make source/CMakeFiles/aufgabe8.dir/color.cpp.o
 	cd /Users/lissyscholz/documents/programmiersprachen/auf3/programmiersprachen-aufgabe-3/build && $(MAKE) -f source/CMakeFiles/aufgabe7.dir/build.make source/CMakeFiles/aufgabe7.dir/color.cpp.o
 .PHONY : color.cpp.o
@@ -408,6 +496,7 @@ color.i: color.cpp.i
 
 # target to preprocess a source file
 color.cpp.i:
+	cd /Users/lissyscholz/documents/programmiersprachen/auf3/programmiersprachen-aufgabe-3/build && $(MAKE) -f source/CMakeFiles/aufgabe12.dir/build.make source/CMakeFiles/aufgabe12.dir/color.cpp.i
 	cd /Users/lissyscholz/documents/programmiersprachen/auf3/programmiersprachen-aufgabe-3/build && $(MAKE) -f source/CMakeFiles/aufgabe8.dir/build.make source/CMakeFiles/aufgabe8.dir/color.cpp.i
 	cd /Users/lissyscholz/documents/programmiersprachen/auf3/programmiersprachen-aufgabe-3/build && $(MAKE) -f source/CMakeFiles/aufgabe7.dir/build.make source/CMakeFiles/aufgabe7.dir/color.cpp.i
 .PHONY : color.cpp.i
@@ -418,6 +507,7 @@ color.s: color.cpp.s
 
 # target to generate assembly for a file
 color.cpp.s:
+	cd /Users/lissyscholz/documents/programmiersprachen/auf3/programmiersprachen-aufgabe-3/build && $(MAKE) -f source/CMakeFiles/aufgabe12.dir/build.make source/CMakeFiles/aufgabe12.dir/color.cpp.s
 	cd /Users/lissyscholz/documents/programmiersprachen/auf3/programmiersprachen-aufgabe-3/build && $(MAKE) -f source/CMakeFiles/aufgabe8.dir/build.make source/CMakeFiles/aufgabe8.dir/color.cpp.s
 	cd /Users/lissyscholz/documents/programmiersprachen/auf3/programmiersprachen-aufgabe-3/build && $(MAKE) -f source/CMakeFiles/aufgabe7.dir/build.make source/CMakeFiles/aufgabe7.dir/color.cpp.s
 .PHONY : color.cpp.s
@@ -428,6 +518,7 @@ mat2.o: mat2.cpp.o
 
 # target to build an object file
 mat2.cpp.o:
+	cd /Users/lissyscholz/documents/programmiersprachen/auf3/programmiersprachen-aufgabe-3/build && $(MAKE) -f source/CMakeFiles/aufgabe12.dir/build.make source/CMakeFiles/aufgabe12.dir/mat2.cpp.o
 	cd /Users/lissyscholz/documents/programmiersprachen/auf3/programmiersprachen-aufgabe-3/build && $(MAKE) -f source/CMakeFiles/aufgabe8.dir/build.make source/CMakeFiles/aufgabe8.dir/mat2.cpp.o
 	cd /Users/lissyscholz/documents/programmiersprachen/auf3/programmiersprachen-aufgabe-3/build && $(MAKE) -f source/CMakeFiles/aufgabe7.dir/build.make source/CMakeFiles/aufgabe7.dir/mat2.cpp.o
 .PHONY : mat2.cpp.o
@@ -438,6 +529,7 @@ mat2.i: mat2.cpp.i
 
 # target to preprocess a source file
 mat2.cpp.i:
+	cd /Users/lissyscholz/documents/programmiersprachen/auf3/programmiersprachen-aufgabe-3/build && $(MAKE) -f source/CMakeFiles/aufgabe12.dir/build.make source/CMakeFiles/aufgabe12.dir/mat2.cpp.i
 	cd /Users/lissyscholz/documents/programmiersprachen/auf3/programmiersprachen-aufgabe-3/build && $(MAKE) -f source/CMakeFiles/aufgabe8.dir/build.make source/CMakeFiles/aufgabe8.dir/mat2.cpp.i
 	cd /Users/lissyscholz/documents/programmiersprachen/auf3/programmiersprachen-aufgabe-3/build && $(MAKE) -f source/CMakeFiles/aufgabe7.dir/build.make source/CMakeFiles/aufgabe7.dir/mat2.cpp.i
 .PHONY : mat2.cpp.i
@@ -448,6 +540,7 @@ mat2.s: mat2.cpp.s
 
 # target to generate assembly for a file
 mat2.cpp.s:
+	cd /Users/lissyscholz/documents/programmiersprachen/auf3/programmiersprachen-aufgabe-3/build && $(MAKE) -f source/CMakeFiles/aufgabe12.dir/build.make source/CMakeFiles/aufgabe12.dir/mat2.cpp.s
 	cd /Users/lissyscholz/documents/programmiersprachen/auf3/programmiersprachen-aufgabe-3/build && $(MAKE) -f source/CMakeFiles/aufgabe8.dir/build.make source/CMakeFiles/aufgabe8.dir/mat2.cpp.s
 	cd /Users/lissyscholz/documents/programmiersprachen/auf3/programmiersprachen-aufgabe-3/build && $(MAKE) -f source/CMakeFiles/aufgabe7.dir/build.make source/CMakeFiles/aufgabe7.dir/mat2.cpp.s
 .PHONY : mat2.cpp.s
@@ -458,6 +551,7 @@ vec2.o: vec2.cpp.o
 
 # target to build an object file
 vec2.cpp.o:
+	cd /Users/lissyscholz/documents/programmiersprachen/auf3/programmiersprachen-aufgabe-3/build && $(MAKE) -f source/CMakeFiles/aufgabe12.dir/build.make source/CMakeFiles/aufgabe12.dir/vec2.cpp.o
 	cd /Users/lissyscholz/documents/programmiersprachen/auf3/programmiersprachen-aufgabe-3/build && $(MAKE) -f source/CMakeFiles/aufgabe8.dir/build.make source/CMakeFiles/aufgabe8.dir/vec2.cpp.o
 	cd /Users/lissyscholz/documents/programmiersprachen/auf3/programmiersprachen-aufgabe-3/build && $(MAKE) -f source/CMakeFiles/aufgabe7.dir/build.make source/CMakeFiles/aufgabe7.dir/vec2.cpp.o
 .PHONY : vec2.cpp.o
@@ -468,6 +562,7 @@ vec2.i: vec2.cpp.i
 
 # target to preprocess a source file
 vec2.cpp.i:
+	cd /Users/lissyscholz/documents/programmiersprachen/auf3/programmiersprachen-aufgabe-3/build && $(MAKE) -f source/CMakeFiles/aufgabe12.dir/build.make source/CMakeFiles/aufgabe12.dir/vec2.cpp.i
 	cd /Users/lissyscholz/documents/programmiersprachen/auf3/programmiersprachen-aufgabe-3/build && $(MAKE) -f source/CMakeFiles/aufgabe8.dir/build.make source/CMakeFiles/aufgabe8.dir/vec2.cpp.i
 	cd /Users/lissyscholz/documents/programmiersprachen/auf3/programmiersprachen-aufgabe-3/build && $(MAKE) -f source/CMakeFiles/aufgabe7.dir/build.make source/CMakeFiles/aufgabe7.dir/vec2.cpp.i
 .PHONY : vec2.cpp.i
@@ -478,6 +573,7 @@ vec2.s: vec2.cpp.s
 
 # target to generate assembly for a file
 vec2.cpp.s:
+	cd /Users/lissyscholz/documents/programmiersprachen/auf3/programmiersprachen-aufgabe-3/build && $(MAKE) -f source/CMakeFiles/aufgabe12.dir/build.make source/CMakeFiles/aufgabe12.dir/vec2.cpp.s
 	cd /Users/lissyscholz/documents/programmiersprachen/auf3/programmiersprachen-aufgabe-3/build && $(MAKE) -f source/CMakeFiles/aufgabe8.dir/build.make source/CMakeFiles/aufgabe8.dir/vec2.cpp.s
 	cd /Users/lissyscholz/documents/programmiersprachen/auf3/programmiersprachen-aufgabe-3/build && $(MAKE) -f source/CMakeFiles/aufgabe7.dir/build.make source/CMakeFiles/aufgabe7.dir/vec2.cpp.s
 .PHONY : vec2.cpp.s
@@ -490,15 +586,20 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... aufgabe12"
 	@echo "... aufgabe10"
-	@echo "... aufgabe8"
 	@echo "... aufgabe9"
+	@echo "... beispiel"
+	@echo "... aufgabe8"
+	@echo "... aufgabe5"
 	@echo "... aufgabe2bis4"
 	@echo "... aufgabe7"
-	@echo "... aufgabe5"
 	@echo "... aufgabe10.o"
 	@echo "... aufgabe10.i"
 	@echo "... aufgabe10.s"
+	@echo "... aufgabe12.o"
+	@echo "... aufgabe12.i"
+	@echo "... aufgabe12.s"
 	@echo "... aufgabe2bis4.o"
 	@echo "... aufgabe2bis4.i"
 	@echo "... aufgabe2bis4.s"
@@ -514,6 +615,9 @@ help:
 	@echo "... aufgabe9.o"
 	@echo "... aufgabe9.i"
 	@echo "... aufgabe9.s"
+	@echo "... beispiel.o"
+	@echo "... beispiel.i"
+	@echo "... beispiel.s"
 	@echo "... circle.o"
 	@echo "... circle.i"
 	@echo "... circle.s"

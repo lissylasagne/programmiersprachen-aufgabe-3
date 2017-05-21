@@ -1,8 +1,8 @@
-#include <cstdlib > // std :: rand ()
-#include <vector > // std::vector<>
+#include <cstdlib> // std :: rand ()
+#include <vector> // std::vector<>
 #include <list> // std::list<>
-#include <iostream > // std :: cout
-#include <iterator > // std::ostream_iterator <>
+#include <iostream> // std :: cout
+#include <iterator> // std::ostream_iterator <>
 #include <algorithm> // std::reverse, std::generate
 
 int main () 
@@ -13,7 +13,7 @@ int main ()
 	}
 	std::copy (std::begin(v0), std::end(v0), std::ostream_iterator<int>(std::cout, "\n"));
 	
-	std::list<int> l0{v0.size()};
+	std::list<int> l0{10};
 	std::copy(std::begin(v0), std::end(v0), std::begin(l0));
 
 	std::list<int> l1{std::begin(l0), std::end(l0)}; 
